@@ -374,7 +374,19 @@
                 15
             ],
             "tileColors": [],
-            "script": [],
+            "script": [
+                {
+                    "id": "24f73b30-6956-4381-bb84-dacdc7c49274",
+                    "command": "EVENT_COMMENT",
+                    "args": {
+                        "text": "1. Eject the engine from your game.\n2. Copy the file `Platform.c` to `YourGreatGame/assets/engine/src/states/Platform.c`\n3. Add stairs to the collisions in your game.\n(Consult ReadMe to learn how to make stairs!)"
+                    }
+                },
+                {
+                    "id": "3949555a-d05f-4b09-a4df-aa9e8a71c81a",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -395,7 +407,7 @@
             "imageHeight": 144,
             "filename": "example.png",
             "inode": "48695170971186171",
-            "_v": 1640144408282
+            "_v": 1640148501099
         }
     ],
     "spriteSheets": [
@@ -406,7 +418,7 @@
             "type": "actor",
             "filename": "actor.png",
             "inode": "23362423067311059",
-            "_v": 1640144233069
+            "_v": 1640148501099
         },
         {
             "id": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
@@ -415,7 +427,7 @@
             "type": "actor_animated",
             "filename": "actor_animated.png",
             "inode": "18014398509812129",
-            "_v": 1640144233069
+            "_v": 1640148501099
         },
         {
             "id": "daf95270-e30d-423b-9ee7-990ae29f57f6",
@@ -424,7 +436,7 @@
             "type": "static",
             "filename": "static.png",
             "inode": "58265320179437462",
-            "_v": 1640144233069
+            "_v": 1640148501099
         }
     ],
     "palettes": [
@@ -573,7 +585,7 @@
             "filename": "template.mod",
             "settings": {},
             "inode": "24488322974152599",
-            "_v": 1640144233059
+            "_v": 1640148501089
         }
     ],
     "variables": [],
