@@ -26,6 +26,13 @@ When the engine sees these collision types placed together it interprets it as c
 Please check out the example project included here to see exactly how they work.
 
 
+# Known Issues
+
+1. Sometimes a player may pass through a climbable stair instead of climbing it.  This is unusual, but happens.
+2. All climbable stairs are also ladders.
+3. Climbable stairs cannot also be solid standing surfaces.
+
+
 # Requirements
 
 This game was built with [GB Studio 2.0-beta 5](https://github.com/chrismaltby/gb-studio/tree/v2beta#beta-builds).
